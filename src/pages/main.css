@@ -1,0 +1,18 @@
+.main_wrap{
+    display: flex;
+    flex-direction: column;
+}
+.main_wrap .projects{
+    
+    background-color: black;
+    height: 40px;
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 8px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: 'neue-machina', 'Neue Montreal', sans-serif;
+}
