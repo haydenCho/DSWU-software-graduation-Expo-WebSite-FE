@@ -2,12 +2,13 @@ import "./array.css";
 
 function arrayprc({ team, subject, link }) {
   return (
+    //array-container 수정하기
     <div className="array-container">
       <div className="array-content">
         <div
           className="team"
           style={{
-            fontFamily: "AbhayaLibre",
+
           }}
         >
           {team}

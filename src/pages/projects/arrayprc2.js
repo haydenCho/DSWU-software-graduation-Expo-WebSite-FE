@@ -1,5 +1,6 @@
 import Arrayprc from "./arrayprc";
 import "./array.css";
+import Header from "../../Header/header_new"
 
 function arrayprc2() {
   const bts = [
@@ -28,6 +29,13 @@ function arrayprc2() {
     }
   };
   return (
+    <div>
+    <div className="Header">
+      <Header/>
+    </div>
+    <div className="sub_con">
+      PROJECTS
+    </div>
     <div
       className="every"
       style={{
@@ -35,12 +43,13 @@ function arrayprc2() {
         letterSpacing: "2px"
       }}
     >
-      | PROJECTS |
+      
       {bts.map((bt,index) => (
         <div key={index} onClick={(e) => handleTextClick(e, bt.link)}>
           <Arrayprc team={bt.team} subject={bt.what} />
         </div>
       ))}
+    </div>
     </div>
   );
 }

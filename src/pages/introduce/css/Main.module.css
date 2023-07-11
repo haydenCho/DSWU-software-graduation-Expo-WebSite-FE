@@ -1,0 +1,50 @@
+
+@media (min-width: 768px){
+  
+}
+
+
+.MidSection{
+  background-color:#FFFFFF; 
+  /* margin-left:34px;
+  margin-right:34px; */
+  display:flex;
+  flex-direction: column;
+  align-items:center
+}
+
+.link{
+  text-decoration: none;
+}
+
+/*감싸는 전체 부분 width 100%에서 변경금지*/
+.LinkComponent{
+  /* width:344px; */
+  width:100%;
+  /* height:323px; */
+  /* margin-left:34px; */
+  /* margin-right:34px; */
+  margin-bottom:0px;
+  background-color: #FFFFFF;
+  border-radius:5px;
+}
+
+/*margin과 스크롤 속도 변화시 여기서 바꾸기*/
+.representativeImg{
+  width:60%;
+  margin-top:7%;
+  object-fit: scale-down;
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+}
+
+.representativeImg2{
+  width:50%;
+  margin-top:8%;
+  
+  object-fit: scale-down; /*이미지 비율 지키며 감소*/
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+}
+
+
