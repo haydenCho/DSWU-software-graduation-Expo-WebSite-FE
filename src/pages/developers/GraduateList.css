@@ -5,7 +5,7 @@
   border: solid black 1px;
   border-radius: 30px;
   width:100px;
-  margin-left: 50% ;
+  margin: auto;
   margin-top: 20px;
   letter-spacing: 2px;
   font-family: 'Work Sans ' ,'arial' ,'Nanumgothic' ,'sans-serif';
@@ -54,10 +54,9 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
   }
 
   .MemberWrap{
-    width: 22%;
+    width: 20%;
     position: relative;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: auto;
   }
 
   .MemberWrap::before {
