@@ -29,7 +29,7 @@ const GraduateList = () => {
         <Header/>
     </div>
         <div className="GraduateList">
-                <div className="sub_con"> PROJECTS
+                <div className="sub_con">/*DEVELOPERS*/
                 </div>
             
                 {groups.map((g,i) => (
