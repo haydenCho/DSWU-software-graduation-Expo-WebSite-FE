@@ -1,17 +1,3 @@
-.sub_con{
-  padding: 8px 20px 8px;
-  color:white;
-  background-color: black;
-  border: solid black 1px;
-  border-radius: 30px;
-  width:100px;
-  margin-left: 50% ;
-  margin-top: 20px;
-  letter-spacing: 2px;
-  font-family: 'Work Sans ' ,'arial' ,'Nanumgothic' ,'sans-serif';
-}
-
-
 @font-face {
   font-family: "AbhayaLibre";
   src: url("./font/AbhayaLibre-ExtraBold.ttf")
@@ -27,6 +13,19 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
 }
 
 @media all  {
+  .sub_con{
+    padding: 8px 20px 8px;
+    color:white;
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 30px;
+    width:155px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Work Sans ' ,'arial' ,'Nanumgothic' ,'sans-serif';
+  }
+
   .GraduateList {
     max-width: 90%;
     margin: 0 auto;
@@ -39,9 +38,6 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     content: "";
     display: block;
     box-sizing: border-box;
-    border-bottom: 1px solid black;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -49,71 +45,25 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     bottom: 100px;
   }
 
-  /*
-  .Title {
-    font-family: "AbhayaLibre";
-    letter-spacing: 10px;
-    text-align: center;
-}*/
-
-  .Group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-  }
-
-  .Group::after{
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-  }
-
-  .GroupName {
-    width: 50%;
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    font-family: AbhayaLibre, sans-serif;
-    letter-spacing: 5px;
-  }
-
-  .MembersList {
-    width: 50%;
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    font-family: Apple, sans-serif;
-    letter-spacing: 5px;
-  }
-
   .Member-Container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 20px;
     position: relative;
   }
 
   .MemberWrap{
-    width: 50%;
+    width: 20%;
     position: relative;
+    margin: auto;
   }
 
   .MemberWrap::before {
     content: "";
     display: block;
     box-sizing: border-box;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border: 1px solid #C4C4C4;
+    border-radius: 10% 10% 5% 5%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -126,7 +76,7 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     text-decoration: none;
   }
 
-  .m0, .m1 {
+  .m0, .m1, .m2, .m3 {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -136,7 +86,6 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     content: "";
     display: block;
     box-sizing: border-box;
-    border-bottom: 1px solid black;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -148,8 +97,6 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     content: "";
     display: block;
     box-sizing: border-box;
-    border-left: 1px solid white;
-    border-bottom: 1px solid black;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -157,18 +104,10 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     bottom: 0px;
   }
 
-  .m2, .m3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    position: relative;
-  }
-
   .m2::after {
     content: "";
     display: block;
     box-sizing: border-box;
-    border: 1px solid transparent;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -180,7 +119,6 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     content: "";
     display: block;
     box-sizing: border-box;
-    border-left: 1px solid white;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -190,11 +128,6 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
 
   .img {
     width: 100%;
-    max-width: 200px; 
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
     text-align: center;
     position: relative;
   }
@@ -203,14 +136,13 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 5% 5% 0 0;
   }
 
   .img::after{
     content: "";
     display: block;
     box-sizing: border-box;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -218,11 +150,27 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     bottom: 0px;
   }      
 
-  .text {
-    width: 60%;
-    text-align: center;
-    padding-top: 10px;
+  .name {
+    width: 40%;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
     font-family: Apple, sans-serif;
+    font-size: large;
     letter-spacing: 5px;
+    color: black;
+  }
+
+  .group {
+    width: 40%;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10%;
+    font-family: Apple, sans-serif;
+    font-size: large;
+    letter-spacing: 5px;
+    color: black;
   }
 }

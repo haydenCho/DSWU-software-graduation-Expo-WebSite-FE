@@ -29,24 +29,11 @@ const GraduateList = () => {
         <Header/>
     </div>
         <div className="GraduateList">
-                <div className="sub_con"> PROJECTS
+                <div className="sub_con">/*DEVELOPERS*/
                 </div>
             
                 {groups.map((g,i) => (
                     <div className='Group-Container'>
-                        <div className="Group">
-                            <div className="GroupName">{g.groupName}</div>
-                            <div className="MembersList">{g.members.map((m,i) => {
-                                if (i === (g.members.length-1)) {
-                                    return m
-                                }
-                                else {
-                                    return m+", "
-                                }
-                            })}
-                            </div>
-                        </div>
-                    
                         <div className="Member-Container">
                             {g.members.map((m, i) => {
                                 return (
@@ -57,7 +44,8 @@ const GraduateList = () => {
                                                 <div className='img'>
                                                     <img src={img} alt='사진' width='150' height='150' />
                                                 </div>
-                                                <div className='text'>{m}</div>
+                                                <div className='name'>{m}</div>
+                                                <div className='group'>{g.groupName}</div>
                                             </div>
                                             </Link>
                                         </React.Fragment>
@@ -67,7 +55,7 @@ const GraduateList = () => {
                         </div>
                     </div>
                 ))}
-        </div>
+            </div>
         </div>
     );
 };
