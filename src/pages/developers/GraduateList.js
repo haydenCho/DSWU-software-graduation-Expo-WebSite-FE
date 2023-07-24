@@ -4,21 +4,33 @@ import './GraduateList.css';
 import img from './image/img.PNG';
 import Header from "../../Header/header_new"
 
-
 const GraduateList = () => {
-    const groups = [
-        {
-            groupName: "UNICORN",
-            members: ["구연우", "김유정", "유다영", "박은비"]
-        },
-        {
-            groupName: "ADMIN",
-            members: ["문지영", "박해인", "이수진"]
-        },
-        {
-            groupName: "SELECT",
-            members: ["김선경", "이희래", "양예지"]
-        }
+    const members = [
+        { name: "강수연", groupName: ""},
+        { name: "구연우" , groupName: "UNICORN" },
+        { name: "김선경" , groupName: "SELECT" },
+        { name: "김유정" , groupName: "UNICORN" },
+        { name: "김지혜" , groupName: "" },
+        { name: "노정우" , groupName: "" },
+        { name: "문지영" , groupName: "ADMIN" },
+        { name: "박상은" , groupName: "" },
+        { name: "박세림" , groupName: "" },
+        { name: "박소정" , groupName: "" },
+        { name: "박은비" , groupName: "UNICORN" },
+        { name: "박해인" , groupName: "ADMIN" },
+        { name: "양예지" , groupName: "SELECT" },
+        { name: "유다영" , groupName: "UNICORN" },
+        { name: "이나래" , groupName: "" },
+        { name: "이소영(1)" , groupName: "" },
+        { name: "이소영(2)" , groupName: "" },
+        { name: "이수진" , groupName: "ADMIN" },
+        { name: "이유진" , groupName: "" },
+        { name: "이희래" , groupName: "SELECT" },
+        { name: "조승아" , groupName: "" },
+        { name: "최예진" , groupName: "" },
+        { name: "추" , groupName: "" },
+        { name: "한채연" , groupName: "" },
+        { name: "허현우" , groupName: "" }
     ];
 
     return (
@@ -32,28 +44,24 @@ const GraduateList = () => {
                 <div className="sub_con">/*DEVELOPERS*/
                 </div>
             
-                {groups.map((g,i) => (
-                    <div className='Group-Container'>
+                {members.map((m,i) => (
+                    //<div className='Group-Container'>
                         <div className="Member-Container">
-                            {g.members.map((m, i) => {
-                                return (
-                                    <div className='MemberWrap'>
-                                        <React.Fragment key={m}>
-                                            <Link to={`/member/${g.groupName}/${i}`}>
-                                            <div className={'m'+i}>
-                                                <div className='img'>
-                                                    <img src={img} alt='사진' width='150' height='150' />
-                                                </div>
-                                                <div className='name'>{m}</div>
-                                                <div className='group'>{g.groupName}</div>
-                                            </div>
-                                            </Link>
-                                        </React.Fragment>
+                            <div className='MemberWrap'>
+                                <React.Fragment key={m.name}>
+                                    <Link to={`/developer/${i}`}>
+                                    <div className={'d'+i}>
+                                        <div className='img'>
+                                            <img src={img} alt='사진' width='150' height='150' />
+                                        </div>
+                                        <div className='name'>{m.name}</div>
+                                        <div className='group'>{m.groupName}</div>
                                     </div>
-                                );
-                            })}
+                                    </Link>
+                                </React.Fragment>
+                            </div>
                         </div>
-                    </div>
+                    //</div>
                 ))}
             </div>
         </div>

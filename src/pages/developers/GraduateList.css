@@ -46,14 +46,14 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
   }
 
   .Member-Container {
-    display: flex;
+    width: 20%;
+    display: inline-block;
     flex-wrap: wrap;
     margin: 20px;
     position: relative;
   }
 
   .MemberWrap{
-    width: 20%;
     position: relative;
     margin: auto;
   }
@@ -76,46 +76,13 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     text-decoration: none;
   }
 
-  .m0, .m1, .m2, .m3 {
+  div[class^="d"] {
     display: flex;
     flex-wrap: wrap;
     position: relative;
   }
 
-  .m0::after {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-  }
-
-  .m1::after {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-  }
-
-  .m2::after {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-  }
-
-  .m3::after {
+  div[class^="d"]::after {
     content: "";
     display: block;
     box-sizing: border-box;
