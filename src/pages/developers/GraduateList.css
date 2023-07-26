@@ -124,7 +124,7 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     padding-bottom: 20px;
     padding-left: 10%;
     font-family: Apple, sans-serif;
-    font-size: large;
+    font-size: 1.2em;
     letter-spacing: 5px;
     color: black;
   }
@@ -136,7 +136,7 @@ src: url("./font/AppleSDGothicNeoUL.ttf")
     padding-bottom: 20px;
     padding-right: 10%;
     font-family: Apple, sans-serif;
-    font-size: large;
+    font-size: 1.2em;
     letter-spacing: 5px;
     color: black;
   }
