@@ -1,0 +1,112 @@
+@media (min-width: 768px) {
+  .insertBody {
+    width: 344px;
+  }
+}
+
+.boardbody {
+  margin-top: 28px;
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.insertBody {
+  height: 175px;
+  background-color: #f6f5f1;
+  margin-bottom: 19px;
+}
+
+.insertBody2 {
+  height: 327px;
+  background-color: #f6f5f1;
+  margin-bottom: 19px;
+}
+
+.insertBody2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.insertBody form {
+  display: flex;
+  flex-direction: column;
+}
+
+.insert {
+  margin: 17px 23px 0px 23px;
+  height: 81px;
+  font-family: "Pretendard-Regular";
+  border: none;
+  resize: none;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.insert2 {
+  margin: 17px 23px 0px 23px;
+  height: 233px;
+  font-family: "Pretendard-Regular";
+  border: none;
+  resize: none;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.insert::placeholder {
+  color: #848484;
+}
+
+.insert:focus {
+  outline: none;
+}
+
+.insert2:focus {
+  outline: none;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: transparent;
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: transparent;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: transparent;
+}
+
+.insertbt {
+  margin: 15px 23px 30px 23px;
+  height: 35px;
+  background: #000000;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Pretendard-Bold";
+  font-size: 14px;
+}
+
+.boarditem {
+  color: #000000;
+  padding: 37px 23px;
+  font-family: "Pretendard-Medium";
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 19px;
+  white-space: pre-wrap;
+  text-align: left;
+}
