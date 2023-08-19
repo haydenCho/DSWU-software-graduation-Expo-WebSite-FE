@@ -1,0 +1,173 @@
+/*이미지 가로로 긴 경우 */
+@font-face {
+    font-family: "AbhayaLibre";
+    src: url("../../asset/AbhayaLibre-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Apple";
+    src: url("../../asset/AppleSDGothicNeoUL.ttf");
+}
+@media print {
+    .icon-print {
+        text-indent: -10000px;
+    }
+}
+.border_around_2 {
+    display: flex;
+    justify-content: center;
+}
+.border_box_2 {
+    width: 65%;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
+    letter-spacing: 3px;
+}
+.team_name_2 {
+    border: 1px solid black;
+    margin: 0px;
+    border-radius: 100px;
+    color: #ffff;
+    background-color: black;
+    width: 13%;
+    padding: 10px;
+}
+.team_subject_2 {
+    padding: 10px;
+    font-size: 1rem;
+}
+.oval-text_2 {
+    font-family: "Apple";
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    padding: 1%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    width: 11rem;
+    height: 100%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/*사진*/
+
+/*팀*/
+.team_info_2 {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    width: 60%;
+
+}
+.team_info_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.team_box_inside_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.team_people_intro_2 {
+    margin: 2%;
+}
+.tema_people_intro_box_2 {
+    border: 1px solid black;
+    border-radius: 100px;
+    color: #ffff;
+    background-color: black;
+    width: 110px;
+    padding: 3px;
+}
+.team_people_intro_people_2 {
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+}
+.team_people_intro_name_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.team_people_intro_team_name_2 {
+    margin-top: 5%;
+}
+ol {
+    padding: 0px;
+}
+.team_used_2 {
+    margin: 1%;
+}
+.team_skill_2 {
+    margin: 3%;
+}
+.tema_skill_box_2 {
+    border: 1px solid black;
+    border-radius: 100px;
+    color: #ffff;
+    background-color: black;
+    width: 110px;
+    padding: 3px;
+}
+.team_tool_2 {
+    margin: 6%;
+}
+.team_device_box_2 {
+    border: 1px solid black;
+    border-radius: 100px;
+    color: #ffff;
+    background-color: black;
+    width: 110px;
+    padding: 3px;
+}
+.team_tool_box_2 {
+    border: 1px solid black;
+    border-radius: 100px;
+    color: #ffff;
+    background-color: black;
+    width: 110px;
+    padding: 3px;
+}
+.flow_box_border_2 {
+    border: 1px solid black;
+    border-radius: 100px;
+    color: #ffff;
+    background-color: black;
+    width: 200px;
+    padding: 3px;
+}
+/*이미지 사이즈 조절*/
+.image-container_2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-container_2 img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.temapic_2 {
+    margin: 0px;
+    width: 70%;
+    height: 80%;
+}
+.body_main_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
